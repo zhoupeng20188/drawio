@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T07:56:41.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="4NcZI70HZXrn-NuhVfi1" version="14.6.13" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-22T08:49:12.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="YVEZLKx18U375Y6PjNZq" version="14.6.13" type="github" pages="7">
   <diagram id="ly2ooe9w6-Pa7oqlMoro" name="NameNode">
     <mxGraphModel dx="946" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -825,27 +825,11 @@
       <root>
         <mxCell id="24iPZ1HhAkUnCQL42odk-0" />
         <mxCell id="24iPZ1HhAkUnCQL42odk-1" parent="24iPZ1HhAkUnCQL42odk-0" />
-        <mxCell id="24iPZ1HhAkUnCQL42odk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="24iPZ1HhAkUnCQL42odk-1" source="24iPZ1HhAkUnCQL42odk-2" target="24iPZ1HhAkUnCQL42odk-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="24iPZ1HhAkUnCQL42odk-11" value="返回block复制指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24iPZ1HhAkUnCQL42odk-9">
-          <mxGeometry x="0.0048" y="-1" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="24iPZ1HhAkUnCQL42odk-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="24iPZ1HhAkUnCQL42odk-1">
           <mxGeometry x="100" y="110" width="260" height="310" as="geometry" />
         </mxCell>
         <mxCell id="24iPZ1HhAkUnCQL42odk-3" value="NameNode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="24iPZ1HhAkUnCQL42odk-1">
           <mxGeometry x="210" y="120" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="24iPZ1HhAkUnCQL42odk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="24iPZ1HhAkUnCQL42odk-1" source="24iPZ1HhAkUnCQL42odk-5" target="24iPZ1HhAkUnCQL42odk-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="24iPZ1HhAkUnCQL42odk-8" value="heartbeat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24iPZ1HhAkUnCQL42odk-7">
-          <mxGeometry x="0.2174" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="24iPZ1HhAkUnCQL42odk-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="24iPZ1HhAkUnCQL42odk-1">
           <mxGeometry x="567" y="110" width="260" height="310" as="geometry" />
@@ -855,6 +839,20 @@
         </mxCell>
         <mxCell id="24iPZ1HhAkUnCQL42odk-10" value="根据上报的block，检查block数量，如果不足，则下达block复制指令返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="24iPZ1HhAkUnCQL42odk-1">
           <mxGeometry x="155" y="250" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tOoS7aRItsw5ssSmXlVh-0" value="上报线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="24iPZ1HhAkUnCQL42odk-1">
+          <mxGeometry x="630" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24iPZ1HhAkUnCQL42odk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="24iPZ1HhAkUnCQL42odk-1" source="tOoS7aRItsw5ssSmXlVh-0" target="24iPZ1HhAkUnCQL42odk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24iPZ1HhAkUnCQL42odk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="24iPZ1HhAkUnCQL42odk-1" source="24iPZ1HhAkUnCQL42odk-2" target="tOoS7aRItsw5ssSmXlVh-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24iPZ1HhAkUnCQL42odk-11" value="随下一次心跳返回block复制指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24iPZ1HhAkUnCQL42odk-9">
+          <mxGeometry x="0.0048" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
