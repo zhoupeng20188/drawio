@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T08:49:12.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="YVEZLKx18U375Y6PjNZq" version="14.6.13" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-22T14:05:12.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="ObSQHQPQzZgJWGEkke-V" version="14.6.13" type="github" pages="8">
   <diagram id="ly2ooe9w6-Pa7oqlMoro" name="NameNode">
     <mxGraphModel dx="946" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -959,6 +959,57 @@
         </mxCell>
         <mxCell id="aiPBJr4H5fsCACifzG3K-29" value="本地文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aiPBJr4H5fsCACifzG3K-1">
           <mxGeometry x="30" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_-FHmQBY1ufnZZ-YnwgJ" name="socket IO流">
+    <mxGraphModel dx="946" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-0" />
+        <mxCell id="nNjxRCTmieODdXsqRT6X-1" parent="nNjxRCTmieODdXsqRT6X-0" />
+        <mxCell id="nNjxRCTmieODdXsqRT6X-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="160" y="130" width="150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-3" value="NameNode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="215" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-4" value="InputStream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="175" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nNjxRCTmieODdXsqRT6X-1" source="nNjxRCTmieODdXsqRT6X-5" target="nNjxRCTmieODdXsqRT6X-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-12" value="发送block" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nNjxRCTmieODdXsqRT6X-10">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-5" value="OutputStream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="175" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="420" y="120" width="150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-7" value="NameNode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="475" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-8" value="InputStream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="435" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nNjxRCTmieODdXsqRT6X-1" source="nNjxRCTmieODdXsqRT6X-9" target="nNjxRCTmieODdXsqRT6X-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-13" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nNjxRCTmieODdXsqRT6X-11">
+          <mxGeometry x="-0.25" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-9" value="OutputStream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="435" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNjxRCTmieODdXsqRT6X-14" value="建立socket连接后就可以拿到对应此socket的输入流和输出流&lt;br&gt;&lt;br&gt;不管对哪一方来说，只要是写入就是往输出流中写入，只是读取就是从输入流中读取&lt;br&gt;&lt;br&gt;比如NN1要发送block给NN2，那么NN1就是此block往输出流中写入，NN2从输入流中读取到block，将返回结果写入输出流，NN1再从自己的输入流中读取结果" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nNjxRCTmieODdXsqRT6X-1">
+          <mxGeometry x="230" y="-40" width="310" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
